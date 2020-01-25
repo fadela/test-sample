@@ -1,0 +1,20 @@
+.anim-circle-class {
+    // opacity: 0.99;
+    background-color: transparent;
+    border: 2px;
+    height: 20vw;
+    width: 20vw;
+    border: 3px solid #5df3f9;
+    transform: translate(-140%, -50%);
+    transition: all 1.5s ease-out;
+}
+
+.anim-name-class {
+    font-size: 4vw;
+    transform: translate(5%, -270%);
+    transition: all 1.5s ease-out;
+}
+
+.anim-name-class span {
+    padding: 0;
+}

@@ -1,0 +1,21 @@
+@import "../../scss/main.scss";
+
+.socials {
+  font-size: 14px;
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  padding: 15px 35px;
+  z-index: 1;
+}
+
+.socials div {
+  margin-bottom: 10px;
+}
+
+.socials a {
+  display: inline-block;
+  color: #f4f5f4;
+}

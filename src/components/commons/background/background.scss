@@ -1,0 +1,188 @@
+@import "../../../scss/main.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+}
+
+.background__text {
+  position: absolute;
+  width: 78%;
+  height: 9vh;
+  padding: 0 11%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 0.3rem;
+}
+
+.top-text,
+.bottom-text {
+  width: 30%
+}
+
+.background__text .right {
+  text-align: end;
+}
+
+.white-line {
+  width: 6%;
+  height: 2px;
+  background-color: #f4f5f4;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.background__parts {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.gray-part {
+  width: 50%;
+  background-color: #323639;
+}
+
+.blue-part {
+  width: 50%;
+  background-color: #5df3f9;
+}
+
+.blue-part__text h4 {
+  padding: 20px 0;
+  letter-spacing: 0.3rem;
+}
+
+.main {
+  position: absolute;
+  left: 50%;
+  overflow: hidden;
+  top: 9vh;
+  width: 78%;
+  height: 82vh;
+  background-color: rgb(82, 92, 92);
+  margin: 0 auto;
+  box-shadow: inset 0 0 1000px #252525;
+  transform: translate(-50%, 0);
+}
+
+[class*="word"] {
+  display: inline-block;
+  font-size: 0vw;
+  position: absolute;
+}
+
+.word-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.word-wrapper svg {
+  width: 100%;
+  height: auto;
+}
+
+.canvas-part {
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  position: relative;
+  // width: 100%;
+  // height: 100%;
+  @include fullItem;
+}
+
+
+.right-a-word {
+  width: 4%;
+  min-width: 60px;
+  top: 20%;
+  right: 14%;
+}
+
+.left-a-word {
+  width: 20%;
+  min-width: 300px;
+  bottom: -33px;
+  left: 20%;
+}
+
+.right-d-word {
+  width: 17%;
+  min-width: 300px;
+  right: -120px;
+  transform: rotate(180deg) translate(0px, 50%);
+  top: 50%;
+}
+
+.left-d-word {
+  width: 30%;
+  min-width: 500px;
+  top: -100px;
+  left: -170px;
+}
+
+.e-word {
+  width: 18%;
+  min-width: 260px;
+  top: 60px;
+  right: 22%;
+}
+
+.f-word {
+  width: 14%;
+  min-width: 220px;
+  bottom: -20px;
+  right: 20%;
+}
+
+.l-word {
+  width: 5%;
+  min-width: 70px;
+  left: 12%;
+  bottom: 20%;
+  transform: rotate(-90deg);
+}
+
+/* .heart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: cyan;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.heart::before,
+.heart::after {
+  content: "";
+  background-color: cyan;
+  border-radius: 50%;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.heart::before {
+  top: -20px;
+}
+
+.heart::after {
+  right: -20px;
+} */

@@ -1,0 +1,16 @@
+@import "../../../scss/main.scss";
+
+.blue-circle {
+  @include putCenter;
+  // opacity: 1;
+  // visibility: visible;
+  width: 27vw;
+  height: 27vw;
+  border-radius: 50%;
+  background-color: #5df3f9;
+  border: 2px solid #5df3f9;
+  box-shadow: 0px 0px 90px #0bd9e1c7;
+  z-index: 1;
+  // transform: (-50%, -50%);
+  // transition: all 1.5s ease-in;
+}

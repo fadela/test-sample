@@ -1,0 +1,31 @@
+@import "../../../scss/main.scss";
+
+.menu-bullet-item div {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #f4f5f4;
+  box-shadow: 0px 0px 0px 0px #0bd9e1c7;
+  transition: all 0.3s ease;
+}
+
+.menu-bullet-item-link {
+  display: inline-block;
+  padding: 5px 35px;
+}
+
+.menu-bullet-item-link:hover .bullet {
+  background-color: #5df3f9;
+  max-width: 8px;
+  max-height: 8px;
+  box-shadow: 0px 0px 6px 6px #0bd9e1c7;
+  transition: all 0.3s ease;
+}
+
+.active div {
+  background-color: #5df3f9;
+  max-width: 8px;
+  max-height: 8px;
+  box-shadow: 0px 0px 6px 6px #0bd9e1c7;
+  transition: all 0.3s ease;
+}

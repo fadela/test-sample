@@ -1,0 +1,28 @@
+@import "../../scss/main.scss";
+
+.menu {
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.menu-bar {
+    margin-top: 100px;
+}
+
+.menu-list {
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.menu-bullet-list {
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    transform: translate(0, -57%);
+    padding: 0;
+    z-index: 1
+}
