@@ -14,3 +14,35 @@
   // transform: (-50%, -50%);
   // transition: all 1.5s ease-in;
 }
+
+@media (max-width: 1500px) {
+}
+
+@media (max-width: 776px) {
+  .menu,
+  .background__parts,
+  .background__text {
+    display: none !important;
+  }
+  .main {
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+  }
+  .blue-circle {
+    min-width: 68vw;
+    min-height: 70vw;
+  }
+  .name {
+    font-size: 10vw !important;
+  }
+  .name span {
+    padding: 0 4px !important;
+  }
+  .menu-bullet-item-link {
+    padding: 5px 20px !important;
+  }
+  .e-word {
+    min-width: 162px;
+  }
+}
