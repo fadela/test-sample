@@ -18,7 +18,7 @@ class Background extends Component {
     context.beginPath();
     for (let i = 0; i < 15; i++) {
       context.moveTo(200 * i, 0);
-      context.lineTo(200 * i, window.innerWidth);
+      context.lineTo(200 * i, window.innerHeight);
     }
     context.strokeStyle = "#C0AEBD";
     context.lineWidth = 0.12;
@@ -55,14 +55,14 @@ class Background extends Component {
 
     context.fillStyle = "#5DF3F9";
     context.font = "16px Arial";
-    context.fillText("</>", 188, 850);
-    context.fillText("&&", canvas.width - 200, 200);
+    context.fillText("</>", 188, canvas.height - 150);
+    context.fillText("</>", canvas.width - 200, 200);
     context.fillText("!==", canvas.width - 200, canvas.height - 200);
-    context.fillText("L", 400, 400);
+    // context.fillText("L", 400, 400);
     context.fillStyle = "#F4F5F4";
     context.fillText("+", 195, 90);
-    context.fillText("||", canvas.width - 420, 70);
-    context.fillText("A", canvas.width - 500, canvas.height - 100);
+    context.fillText("L", canvas.width - 420, 70);
+    context.fillText("A", canvas.width - 500, canvas.height - 50);
     context.fillText("D", 700, canvas.height - 150);
   };
 
