@@ -1,5 +1,6 @@
 @import "../../scss/main.scss";
 
+
 .name {
     position: absolute;
     top: 50%;
@@ -158,7 +159,7 @@
     }
   }
   
-  @media (max-width: 650px){
+  @media (max-width: 700px){
     .e-word, .f-word {
       display: none !important;
     }

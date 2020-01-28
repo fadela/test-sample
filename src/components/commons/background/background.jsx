@@ -3,6 +3,9 @@ import "./background.scss";
 import "./canvas.js";
 import BlueCircle from "../blueCircle/blueCircle";
 import Menu from "../../menu/menu";
+import {
+  FaCode
+} from "react-icons/fa";
 
 class Background extends Component {
   state = {};
@@ -90,7 +93,7 @@ class Background extends Component {
           </div>
           <div className="white-line"></div>
           <div className="bottom-text right">
-            <h4>R ____ L</h4>
+            <span> <i class="fas fa-code"></i> </span>
           </div>
         </div>
 

@@ -27,8 +27,16 @@ body {
   width: 30%
 }
 
+.bottom-text div {
+  display: inline;
+  width: 10px;
+  height: 2px;
+  background-color: #f4f5f4;
+}
+
 .background__text .right {
   text-align: end;
+  color: #f4f5f4;
 }
 
 .white-line {
