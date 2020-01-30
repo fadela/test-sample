@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Background from "./../../components/commons/background/background";
+import Socials from "../../components/socials/socials";
 import Menu from "./../../components/menu/menu";
 import BlueCircle from "../../components/commons/blueCircle/blueCircle";
 import "./AboutMe.scss";
@@ -36,6 +37,7 @@ class AboutMe extends Component {
           <Menu />
           <Name className={this.state.nameClass} />
           <BlueCircle className={this.state.circleClass} />
+          <Socials />
         </Background>
       </React.Fragment>
     );

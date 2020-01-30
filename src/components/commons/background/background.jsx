@@ -320,8 +320,6 @@ c3 42 6 655 6 1364 l0 1287 -49 36 -49 36 -1633 2 -1634 3 -2 4190 c-1 2305
                 </g>
               </svg>
             </div>
-
-            <div className="heart"></div>
           </div>
           <div className="canvas-part">
             <canvas ref="canvas"></canvas>

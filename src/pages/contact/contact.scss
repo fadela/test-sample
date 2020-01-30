@@ -1,0 +1,74 @@
+// @keyframes hide-circle {
+//   0% {
+//     width: 27vw;
+//     height: 27vw;
+//   }
+
+//   25% {
+//     width: 21vw;
+//     height: 21vw;
+//   }
+
+//   50% {
+//     width: 14vw;
+//     height: 14vw;
+//   }
+
+//   75% {
+
+//     width: 7vw;
+//     height: 7vw;
+//   }
+
+//   100% {
+//     width: 0vw;
+//     height: 0vw;
+//   }
+// }
+
+// .hide-circle {
+//   animation: hide-circle 2s infinite;
+// }
+
+.hide-circle {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition: all 1s ease;
+}
+
+.heart {
+  opacity: 1;
+  width: 12vw;
+  height: 12vw;
+  border: 0;
+  border-radius: 0;
+  transition: opacity 2s ease 0.1s;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.transform {
+  transform: translate(-200%, -50%) rotate(-45deg);
+  transition: all 1s ease 0.01s;
+}
+
+.heart::before,
+.heart::after {
+  opacity: 1;
+  content: "";
+  background-color: #5df3f9;
+  border-radius: 50%;
+  position: absolute;
+  width: 12vw;
+  height: 12vw;
+  box-shadow: 0px 0px 90px #5df3f9;
+}
+
+.heart::before {
+  top: -6vw;
+}
+
+.heart::after {
+  right: -6vw;
+
+}
