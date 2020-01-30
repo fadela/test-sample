@@ -1,45 +1,9 @@
-import React, { Component } from "react";
-import {
-  FaTelegramPlane,
-  FaGithub,
-  FaLinkedinIn,
-  FaInstagram,
-  FaCodepen
-} from "react-icons/fa";
-import "./socials.scss";
-
-export class Socials extends Component {
-  render() {
-    return (
-      <div className="socials">
-        <div className="socials__telegram">
-          <a href="">
-            <FaTelegramPlane />
-          </a>
-        </div>
-        <div className="socilas__instagram">
-          <a href="">
-            <FaInstagram />
-          </a>
-        </div>
-        <div className="socilas__linkedin">
-          <a href="https://www.linkedin.com/in/fateme-barghi/">
-            <FaLinkedinIn />
-          </a>
-        </div>
-        <div className="socilas__github">
-          <a href="https://github.com/fadela">
-            <FaGithub />
-          </a>
-        </div>
-        <div className="socilas__github">
-          <a href="https://virgool.io/@fadela">
-          <svg width="12px" height="16px" viewBox="0 0 204 304" fill="#FFFFFF">
-{/* <style type="text/css">
+<svg width="35px" height="50px" viewBox="0 0 204 304">
+<style type="text/css">
                     .st0{fill:url(#Shape_1_);}
                     .st1{filter:url(#filter-3);}
                     .st2{fill:#FFFFFF;}
-                  </style> */}
+                  </style>
 <filter filterUnits="objectBoundingBox" height="200%" id="filter-3" width="200%" x="-50%" y="-50%">
 <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
 <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"></feGaussianBlur>
@@ -65,16 +29,3 @@ export class Socials extends Component {
 </g>
 </g>
 </svg>
-          </a>
-        </div>
-        {/* <div className="socials__codepen">
-          <a href="">
-            <FaCodepen />
-          </a>
-        </div> */}
-      </div>
-    );
-  }
-}
-
-export default Socials;

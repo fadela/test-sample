@@ -23,7 +23,7 @@ class Home extends Component {
           </div>
 
           <div className="round-btn codepen-position">
-            <a href="">
+            <a href="https://codepen.io/fadela">
               <FaCodepen />
             </a>
           </div>
